@@ -37,3 +37,19 @@
 .student p {
   margin: 0;
 }
+
+.welcome-msg {
+  font-family: Arial;
+  background-color: rgb(153, 251, 151);
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.login-msg {
+  font-family: Arial;
+  background-color: rgb(243, 76, 76);
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 5px;
+}

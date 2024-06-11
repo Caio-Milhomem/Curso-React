@@ -5,11 +5,13 @@ import Card from "./Card"
 import Button from './assets/Button/Button'
 import ButtonInline from "./ButtonInline"
 import Student from "./Students"
+import UserGreeting from "./UserGreeting"
 
 function App() {
 
   return (
     <>
+      <UserGreeting isLoggedIn={true} userName="Caio" />
       <Card />
       <Button />
       <ButtonInline />
