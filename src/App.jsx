@@ -4,6 +4,7 @@ import Food from "./Food"
 import Card from "./Card"
 import Button from './assets/Button/Button'
 import ButtonInline from "./ButtonInline"
+import Student from "./Students"
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
       <Button />
       <ButtonInline />
       <Header />
+      <Student name="Caio" age={24} isStudent={true} />
+      <Student name="Erika" age={25} isStudent={false} />
+      <Student />
       <Footer />
       <Food />
     </>
