@@ -7,6 +7,9 @@ import ButtonInline from "./ButtonInline"
 import Student from "./Students"
 import UserGreeting from "./UserGreeting"
 import List from "./List"
+import ButtonClick from "./ButtonClick"
+import ProfilePicture from "./ProfilePicture"
+import UseStateComponent from "./UseStateComponent"
 
 function App() {
   const fruits = [
@@ -23,6 +26,9 @@ function App() {
       <Button />
       <ButtonInline />
       <Header />
+      <UseStateComponent />
+      <ButtonClick />
+      <ProfilePicture />
       {fruits.length > 0 && <List items={fruits} category="Fruits" />}
       {/*<List />*/}
       <Student name="Caio" age={24} isStudent={true} />
