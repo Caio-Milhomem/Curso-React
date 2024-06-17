@@ -14,6 +14,7 @@ import OnChangeComponent from "./OnChangeComponent"
 import ColorPicker from "./ColorPicker"
 import UpdaterFunctions from "./UpdaterFunctions"
 import UpdateObjects from "./UpdateObjects"
+import UpdateArrays from "./UpdateArrays"
 
 function App() {
   const fruits = [
@@ -30,6 +31,7 @@ function App() {
       <Button />
       <ButtonInline />
       <Header />
+      <UpdateArrays />
       <UpdateObjects />
       <UpdaterFunctions />
       <ColorPicker />
