@@ -11,6 +11,7 @@ import ButtonClick from "./ButtonClick"
 import ProfilePicture from "./ProfilePicture"
 import UseStateComponent from "./UseStateComponent"
 import OnChangeComponent from "./OnChangeComponent"
+import ColorPicker from "./ColorPicker"
 
 function App() {
   const fruits = [
@@ -27,6 +28,7 @@ function App() {
       <Button />
       <ButtonInline />
       <Header />
+      <ColorPicker />
       <OnChangeComponent />
       <UseStateComponent />
       <ButtonClick />
