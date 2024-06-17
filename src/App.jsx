@@ -10,6 +10,7 @@ import List from "./List"
 import ButtonClick from "./ButtonClick"
 import ProfilePicture from "./ProfilePicture"
 import UseStateComponent from "./UseStateComponent"
+import OnChangeComponent from "./OnChangeComponent"
 
 function App() {
   const fruits = [
@@ -26,6 +27,7 @@ function App() {
       <Button />
       <ButtonInline />
       <Header />
+      <OnChangeComponent />
       <UseStateComponent />
       <ButtonClick />
       <ProfilePicture />
