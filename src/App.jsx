@@ -16,6 +16,7 @@ import UpdaterFunctions from "./UpdaterFunctions"
 import UpdateObjects from "./UpdateObjects"
 import UpdateArrays from "./UpdateArrays"
 import UpdateArraysOfObjects from "./UpdateArraysOfObjects"
+import ToDoList from "./ToDoList"
 
 function App() {
   const fruits = [
@@ -32,6 +33,7 @@ function App() {
       <Button />
       <ButtonInline />
       <Header />
+      <ToDoList />
       <UpdateArraysOfObjects />
       <UpdateArrays />
       <UpdateObjects />

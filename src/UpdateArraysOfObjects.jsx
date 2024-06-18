@@ -46,7 +46,9 @@ function UpdateArraysOfObjects() {
             <input type="text" value={carMake} onChange={handleMakeChange} placeholder="Enter car make" />
             <input type="text" value={carModel} onChange={handleModelChange} placeholder="Enter car model" />
             <button onClick={handleAddCar}>Add Car</button>
+            <hr />
         </div>
+
     )
 }
 export default UpdateArraysOfObjects
