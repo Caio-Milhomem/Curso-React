@@ -48,7 +48,6 @@ function UpdateArraysOfObjects() {
             <button onClick={handleAddCar}>Add Car</button>
             <hr />
         </div>
-
     )
 }
 export default UpdateArraysOfObjects

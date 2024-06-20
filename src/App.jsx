@@ -17,6 +17,7 @@ import UpdateObjects from "./UpdateObjects"
 import UpdateArrays from "./UpdateArrays"
 import UpdateArraysOfObjects from "./UpdateArraysOfObjects"
 import ToDoList from "./ToDoList"
+import UseEffect from "./UseEffect"
 
 function App() {
   const fruits = [
@@ -33,6 +34,7 @@ function App() {
       <Button />
       <ButtonInline />
       <Header />
+      <UseEffect />
       <ToDoList />
       <UpdateArraysOfObjects />
       <UpdateArrays />
