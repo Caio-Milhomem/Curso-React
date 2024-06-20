@@ -144,3 +144,22 @@ input[type="color"] {
 .text {
   flex: 1;
 }
+
+.clock-container {
+  background-image: url("assets/clockbackground.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 4px rgb(0, 0, 0);
+
+}
