@@ -150,8 +150,9 @@ input[type="color"] {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 10rem;
+  height: 15rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -162,4 +163,10 @@ input[type="color"] {
   font-weight: bold;
   text-shadow: 3px 3px 4px rgb(0, 0, 0);
 
+}
+
+.date {
+  color: white;
+  font-weight: bold;
+  text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
