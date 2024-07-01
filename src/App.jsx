@@ -22,6 +22,7 @@ import DigitalClock from "./DigitalClock"
 import UseContext from "./ComponentA"
 import ComponentA from "./ComponentA"
 import UseRef from "./UseRef"
+import StopWatch from "./StopWatch"
 
 function App() {
   const fruits = [
@@ -40,6 +41,7 @@ function App() {
       <ComponentA />
       <UseRef />
       <DigitalClock />
+      <StopWatch />
       <Header />
       <UseEffect />
       <ToDoList />
