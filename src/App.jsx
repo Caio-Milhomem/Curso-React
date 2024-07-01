@@ -19,6 +19,8 @@ import UpdateArraysOfObjects from "./UpdateArraysOfObjects"
 import ToDoList from "./ToDoList"
 import UseEffect from "./UseEffect"
 import DigitalClock from "./DigitalClock"
+import UseContext from "./ComponentA"
+import ComponentA from "./ComponentA"
 
 function App() {
   const fruits = [
@@ -34,6 +36,7 @@ function App() {
       <Card />
       <Button />
       <ButtonInline />
+      <ComponentA />
       <DigitalClock />
       <Header />
       <UseEffect />

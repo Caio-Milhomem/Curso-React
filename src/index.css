@@ -170,3 +170,8 @@ input[type="color"] {
   font-weight: bold;
   text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
+
+.box {
+  border: 3px solid black;
+  padding-left: 20px;
+}
