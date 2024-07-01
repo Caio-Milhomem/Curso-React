@@ -21,6 +21,7 @@ import UseEffect from "./UseEffect"
 import DigitalClock from "./DigitalClock"
 import UseContext from "./ComponentA"
 import ComponentA from "./ComponentA"
+import UseRef from "./UseRef"
 
 function App() {
   const fruits = [
@@ -37,6 +38,7 @@ function App() {
       <Button />
       <ButtonInline />
       <ComponentA />
+      <UseRef />
       <DigitalClock />
       <Header />
       <UseEffect />
